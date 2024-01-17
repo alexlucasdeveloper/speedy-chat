@@ -1,0 +1,70 @@
+/* Local Font */
+@font-face {
+    font-family: SF Pro;
+    src: url('../static/font/SF-Pro.ttf');
+}
+
+/* Whatsapp Colors*/
+:root {
+    --primaryWp: #25D366;
+    --middleWp: #9efec1;
+    --secondaryWp: #25D366;
+    --shadowWp: #128C7E;
+    --background: #ece5dd;
+}
+
+/* Predefined Styles */
+.flex { display: flex; }
+.flex-column { flex-direction: column; }
+.justify-center { justify-content: center; }
+.align-center { align-items: center; }
+.text-center { text-align: center; }
+.text-bold { font-weight: bold; }
+.text-wpp { color: var(--primaryWp); }
+.bg-wpp { background-color: var(--background); }
+.font-sf { font-family: SF Pro; }
+.title { font-size: 3rem; }
+.mvh-100 { min-height: 100vh; }
+
+/* Styles */
+
+input { text-align: center; }
+
+strong { font-weight: bold; }
+
+footer { 
+    color: #808080; 
+    padding: 10px;
+}
+
+footer a:hover {
+    cursor: pointer;
+    border-bottom: 1px solid;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited{
+    color: #808080;
+}
+
+.wrapper {  /* Justify footer in bottom, without move center content */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#chat {
+    height: 120px;
+}

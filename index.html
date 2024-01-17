@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="theme-color" content="#25d366" /> -->
+    <title>Speedy Chat</title>
+    <link rel="icon" href="./static/img/chat.svg">
+    <link rel="stylesheet" href="./css/reset.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- 
+        • Seleção de DDD, então retornar input com placeholder referente ao mesmo local do DDD escolhido
+     -->
+</head>
+<body class="bg-wpp font-sf flex text-center justify-center align-center flex-column mvh-100">
+    
+    <main class="wrapper">
+        <div class="content">
+            <img id="chat" src="./static/img/chat.svg">
+            <h1 class="text-wpp title text-bold">Speedy Chat</h1>
+            <p class="">Send a quickly <strong>Whatsapp</strong> message.</p>
+
+            <select id="" class="text-center">
+                <option value="blank">-- Select DDD --</option>
+                <option value="usa">+1 (USA)</option>
+                <option value="br">+55 (Brazil)</option>
+            </select>
+
+            <div id="output"></div>
+            <button>Submit</button>
+        </div>
+    </main>
+
+    <footer>
+        © 2024 Alex Lucas | <a href="https://github.com/alexlucasdeveloper">Github</a> | <a>Sobre</a>
+    </footer>
+
+    <script type="text/javascript" src="./js/imask.js"></script>
+    <script type="module" src="./js/main.js"></script>
+
+</body>
+</html>
